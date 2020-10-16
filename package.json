@@ -1,0 +1,27 @@
+{
+  "name": "goodread-grabber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./jest.config.json",
+    "test:watch": "npm test --watchAll"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "goodreads-api-node": "0.0.12",
+    "lodash.orderby": "^4.6.0",
+    "log-to-file": "^2.0.2",
+    "nodemon": "^2.0.4",
+    "replace-special-characters": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.5.2",
+    "jest": "^26.5.3"
+  }
+}
